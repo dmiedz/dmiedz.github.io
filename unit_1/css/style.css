@@ -1,7 +1,12 @@
 body {
-	background-color: navy;
+	background-color: #24305E;
 }
 
 h1, p {
-	color: orange;
+	color: #F76C6C;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
