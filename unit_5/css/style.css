@@ -6,6 +6,12 @@ body {
 	color: #F76C6C;
 }
 
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 h1, h2 {
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
@@ -16,18 +22,13 @@ a {
 }
 
 nav {
-	float: right;
 	list-style-type: none;
-	margin: 0;
-    padding: 0;
+	background-color: #E8C66A;
+	border: 1px black solid;
 }
 
 li {
 	display: inline;
-}
-
-#slogan {
-	float: left;
 }
 
 #main_photo {
@@ -35,16 +36,26 @@ li {
     height: auto;
 }
 
+#one, #two, #three {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+}
+
 #contact {
 	color: #F8E9A1;
 }
 
-#menus {
-	background-color: #F76C6C;
-	color: #24305E;
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
 }
 
-#menu_photo {
+#menu_photo, #about_photo, #delivery_photo{
 	height: 40%;
 	width: 40%;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
 }
