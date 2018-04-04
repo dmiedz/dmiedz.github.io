@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+body {
+	background-color: #24305E;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	color: #F76C6C;
+  font-size: 16px;
+}
+
+header {
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1, h2 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+	margin-right: 1.2em;
+  	display: inline-block;
+  	float: right;
+}
+
+li {
+	display: inline;
+}
+
+li.menus_list {
+	display: inline;
+  	float: left;
+  	width: 50%;
+  	text-align: left;
+}
+
+#main_photo {
+    max-width: 100%;
+    height: auto;
+}
+
+#one, #two, #three {
+    background-color: #24305E;
+    padding: 10px;
+}
+
+#menus {
+    float: left;
+    width: 48%;
+}
+
+#right_one {
+    float: right;
+    width: 48%;
+}
+
+#left_two {
+    float: left;
+    width: 48%;
+}
+
+#about {
+	float: right;
+	width: 48%;
+}
+
+#delivery {
+	float: left;
+	width: 48%;
+}
+
+#right_three {
+	float: right;
+    width: 48%;
+}
+
+#contact {
+	color: #F8E9A1;
+}
+
+#menu_photo, #about_photo, #delivery_photo {
+	width: 100%;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+
+    nav a, #menus, #right_one, #left_two, #about, #delivery, #right_three {
+      float: none;
+      width: auto;
+      margin: 1% 1% 1%;
+    }
+
+}
+
