@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+body {
+	background-color: #24305E;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	color: #F76C6C;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1, h2 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav {
+	list-style-type: none;
+	background-color: #E8C66A;
+	border: 1px black solid;
+}
+
+li {
+	display: inline;
+}
+
+#main_photo {
+    max-width: 100%;
+    height: auto;
+}
+
+#one, #two, #three {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+}
+
+#contact {
+	color: #F8E9A1;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+}
+
+#menu_photo, #about_photo, #delivery_photo{
+	height: 40%;
+	width: 40%;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+}
