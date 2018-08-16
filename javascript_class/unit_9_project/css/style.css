@@ -1,0 +1,58 @@
+h1, h2, h3, p {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#main_page {
+	position: relative;
+    text-align: center;
+}
+
+#main {
+	width: 100%;
+}
+
+#form_section {
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#form_output {
+	display: inline-block;
+	float: right;
+	width: 40%;
+	padding: 10px;
+	margin: 10px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#map {
+	height: 500px;
+	position: middle;
+}
+
+#jerry {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+#highlighted_review {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	text-align: center;
+	position: relative;
+}

@@ -2,7 +2,8 @@
   <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <title>Sublime Project</title>
+      <title>Restaurant Site</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
 
@@ -12,28 +13,39 @@
       <div id = "main_page">
         <h1>Monk’s Cafe</h1>
         <h3>“The Coffee Shop”</h3>
-        <img src = "img/toms-restaurant.jpg" alt = "monk's">
+        <img id = "main" src = "img/toms-restaurant.jpg" alt = "monk's">
       </div>
 
       <div id = "reservations">
         <h1>Reservations</h1>
-        <h2>Make a Reservation</h2>
+        
+        <div id = "form_section">
+          <h2>Make a Reservation</h2>
 
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Day">
-            <button>Confirm Reservation</button>
-        </form>
+          <form>
+                <lable for = "name">Name</lable>
+                <input id = "name" type="text" placeholder="Name">
+                <br />
 
-        <h2>Existing Reservations</h2>
+                <lable for = "day">Day</lable>
+                <input id = "day" type="text" placeholder="Day">
+                <br />
 
-        <table>
-          <thead>
-          <th>Name</th>
-          <th>Day</th>
-          </thead>
-          <tbody></tbody>
-        </table>
+                <button>Confirm Reservation</button>
+          </form>
+        </div>
+
+        <div id = "form_output">
+          <h2>Existing Reservations</h2>
+
+          <table>
+            <thead>
+            <th>Name</th>
+            <th>Day</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
 
       </div>
 
@@ -41,7 +53,7 @@
 
         <h1>Come Dine with Us</h1>
 
-        <div id = "map" style="height: 600px; width: 600px">
+        <div id = "map">
 
           <!-- Google Maps Script-->
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDakjCfcdxEs0zodgkrGxJQVDK5KPQLqPQ&callback=initMap"
@@ -51,11 +63,13 @@
 
       </div>
 
-      <div class = "reviews">
+      <div id = "reviews">
+
         <h1>Customer Reviews</h1>
-        <img src = "img/jerry.jpg" alt = "jerry">
-        <p>“Big lettuce, big carrots, tomatoes like volleyballs.”
-        — Jerry Seinfeld, on The BIG Salad</p>
+        <img id = "jerry" src = "img/jerry.jpg" alt = "jerry">
+
+        <p id = "highlighted_review">“Big lettuce, big carrots, tomatoes like volleyballs.” — Jerry Seinfeld, on The BIG Salad</p>
+
       </div>
 
     </body>
